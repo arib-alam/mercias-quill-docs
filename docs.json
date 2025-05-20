@@ -14,29 +14,8 @@
         "tab": "Guides",
         "groups": [
           {
-            "group": "Get Started",
-            "pages": [
-              "introduction",
-              "quickstart",
-              "development"
-            ]
-          },
-          {
-            "group": "Essentials",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
             "group": "Sea of Thieves API",
-            "pages": [
-              "sot-api/auth"
-            ]
+            "pages": ["sea-of-thieves-api/auth", "sea-of-thieves-api/extension"]
           }
         ]
       },
@@ -45,9 +24,7 @@
         "groups": [
           {
             "group": "API Documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
+            "pages": ["api-reference/introduction"]
           },
           {
             "group": "Endpoint Examples",
@@ -102,7 +79,7 @@
       "discord": "https://discord.com/discovery/applications/1169623628304892045",
       "bluesky": "https://bsky.app/profile/merciasquill.com",
       "twitter": "https://x.com/MerciasQuill",
-      "instagram":"https://www.instagram.com/merciasquill"
+      "instagram": "https://www.instagram.com/merciasquill"
     }
   }
 }
