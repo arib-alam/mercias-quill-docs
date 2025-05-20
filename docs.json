@@ -40,19 +40,19 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
+          "anchor": "Main Dashboard",
+          "href": "https://merciasquill.com",
+          "icon": "sliders"
         },
         {
-          "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
+          "anchor": "Discord Application",
+          "href": "https://merciasquill.com/invite",
+          "icon": "code"
         },
         {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
+          "anchor": "Browser Extension",
+          "href": "https://merciasquill.com/extension",
+          "icon": "store"
         }
       ]
     }
@@ -64,14 +64,14 @@
   "navbar": {
     "links": [
       {
-        "label": "Support",
-        "href": "https://discord.gg/gfk6R9JjBa"
+        "label": "Discord Server",
+        "href": "https://merciasquill.com/support"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "Contribute on GitHub",
+      "href": "https://merciasquill.com/arib-alam/mercias-quill-docs"
     }
   },
   "footer": {
