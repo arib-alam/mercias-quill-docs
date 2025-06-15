@@ -1,0 +1,90 @@
+---
+title: "Xbox Profile Data"
+description: "Available options for parsing from an Xbox profile"
+icon: "id-card"
+---
+
+<ResponseField name="IsSponsoredUser" type="boolean" required default="false">
+  Whether the user is sponsored
+</ResponseField>
+
+<ResponseField
+  name="XboxUserId"
+  type="number"
+  required
+  default="2535464644098401"
+>
+  Unique Xbox user Id
+</ResponseField>
+
+<ResponseField
+  name="GameDisplayPicRaw"
+  type="string"
+  required
+  default="https://images-eds-ssl.."
+>
+  URL to user's profile picture
+</ResponseField>
+
+<ResponseField name="Gamerscore" type="number" required default="395">
+  Total gamerscore of the user
+</ResponseField>
+
+<ResponseField name="Gamertag" type="string" required default="MerciasQuill450">
+  Legacy gamertag
+</ResponseField>
+
+<ResponseField name="AccountTier" type="string" required default="Silver">
+  Account subscription tier
+</ResponseField>
+
+<ResponseField name="XboxOneRep" type="string" required default="GoodPlayer">
+  Xbox reputation status
+</ResponseField>
+
+<ResponseField
+  name="PreferredColor"
+  type="string"
+  required
+  default="https://dlassets-ssl..."
+>
+  URL to user's preferred color JSON
+</ResponseField>
+
+<ResponseField name="Bio" type="string" default="">
+  User's biography
+</ResponseField>
+
+<ResponseField
+  name="ModernGamertag"
+  type="string"
+  required
+  default="MerciasQuill"
+>
+  Updated gamertag
+</ResponseField>
+
+<ResponseField name="ModernGamertagSuffix" type="number" default="450">
+  Suffix for ModernGamertag
+</ResponseField>
+
+<ResponseField
+  name="UniqueModernGamertag"
+  type="string"
+  required
+  default="MerciasQuill#450"
+>
+  Full unique modern gamertag (e.g. MerciasQuill#450)
+</ResponseField>
+
+<ResponseField name="TenureLevel" type="number" required default="0">
+  Years of Xbox Live membership
+</ResponseField>
+
+<ResponseField name="Watermarks" type="string" default="">
+  Extra watermark info
+</ResponseField>
+
+<ResponseField name="IsQuarantined" type="number" required default="false">
+  Whether the account is quarantined
+</ResponseField>
